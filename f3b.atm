@@ -1,0 +1,31 @@
+# This is a TEA pre-atmosphere input file.
+# TEA accepts a file in this format to produce species abundances as
+# a function of pressure and temperature.
+# Output species must be added in the line immediately following the
+# #SPECIES marker and must be named to match JANAF converted names.
+# Units: pressure (bar), temperature (K), abundance (unitless).
+
+#SPECIES
+H_g C_g O_g H2_ref O2_ref N2_ref CO_g CO2_g CH4_g H2O_g CH_g CH2_g CH3_g C2H2_g OH_g H2CO_g HCO_g C2_g C2H_g C2H4_g  NH3_g HCN_g
+
+#TEADATA
+#Pressure   Temp    H      O         C      N
+1.0       1500.0    1.0    0.0005    0.00025    5e-05
+1.0       1500.0    1.0    0.0005    0.00025    0.0001
+1.0       1500.0    1.0    0.0005    0.00025    0.00015
+1.0       1500.0    1.0    0.0005    0.00025    0.0002
+1.0       1500.0    1.0    0.0005    0.00025    0.00025
+1.0       1500.0    1.0    0.0005    0.00025    0.0003
+1.0       1500.0    1.0    0.0005    0.00025    0.00035
+1.0       1500.0    1.0    0.0005    0.00025    0.0004
+1.0       1500.0    1.0    0.0005    0.00025    0.00045
+1.0       1500.0    1.0    0.0005    0.00025    0.0005
+1.0       1500.0    1.0    0.0005    0.00025    0.001
+1.0       1500.0    1.0    0.0005    0.00025    0.0015
+1.0       1500.0    1.0    0.0005    0.00025    0.002
+1.0       1500.0    1.0    0.0005    0.00025    0.0025
+1.0       1500.0    1.0    0.0005    0.00025    0.003
+1.0       1500.0    1.0    0.0005    0.00025    0.0035
+1.0       1500.0    1.0    0.0005    0.00025    0.004
+1.0       1500.0    1.0    0.0005    0.00025    0.0045
+1.0       1500.0    1.0    0.0005    0.00025    0.005
